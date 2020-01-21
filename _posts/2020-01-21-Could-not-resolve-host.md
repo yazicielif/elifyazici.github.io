@@ -5,7 +5,7 @@ title: Could not resolve host hatası çözümü
 comments: true
 ---
 
-Arkadaşlar merhaba yaşadığım bir sıkıntı ve çözümü için bu yazıyı hazırladım.
+Yaşadığım bir sıkıntı ve çözümü için bu yazıyı hazırladım.
 Fiziksel sistemime sorunsuz bir şekilde ubuntu kurulumu ve güncellemeler yaptım fakat ihtiyacım olan programları kurmaya başladığımda aşağıdaki gibi
 ~~~
 Hata:  1 https://download.docker.com/linux/ubuntu xenial InRelease             
