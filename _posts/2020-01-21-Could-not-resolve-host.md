@@ -15,7 +15,7 @@ hatası aldım konu ile ilgili birçok araştırma yaptım.
 Problemi çözemedim ve sorunsuz bir internetim olduğu halde  başka bir ağdan internete bağlanmayı denedim ve hatam çözüldü.
 Kullandığım ağ public di ve authentication ile internete giriş yapılıyordu ancak internete giriş portalının ssl sertifikası olmaması bu sorunları yaşamama sebep olmuştu.
 
-![Crepe](https://hizliresim.com/anVLpB)
+![Crepe](https://i.hizliresim.com/anVLpB.png){: .center-block :}
 
 Çözüm olarak cat /etc/resolv.conf dosyasına giderek içerisine google dns ayarlarını yazabilirsiniz.
 
