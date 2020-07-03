@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dockerfile ile Docker Image Oluşturulması
-bigimg: /img/docker_post/DockerPost.jpg
+title: Elastic STACK ile Ağ Analiz Ortamının Oluşturulması
+bigimg: /img/network_post_1/networkimage.jpg
 
 
 tags: [Docker, Dockerfile]
