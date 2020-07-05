@@ -18,7 +18,9 @@ Bu ortam için gereken araçlar:
 - Kibana
 - Wireshark/Tshark
 
-Ben Ubuntu 18.04 makinede çalıştığım için bu şekilde indiriyorum.
+Ben Ubuntu 18.04 makinede çalıştığım için bu şekilde indirmekteyim.Bu kurulum Elasticsearch 7.0 ve sonrası sürümleri desteklemektedir. 
+
+## ElasticSearch Kurulumu
 
 sudo wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 
@@ -33,6 +35,13 @@ sudo echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo
 ![](http://yazicielif.github.io/img/network_post_1/n_3.png)
 
 sudo apt-get update && sudo apt-get install elasticsearch
+
+![](http://yazicielif.github.io/img/network_post_1/n_4.png)
+
+sudo -i service elasticsearch start ile elasticsearch başlatılabilir.
+netstat -nltp ile çalışan servislerde elasticsearch'ün çalıştığı 9200 portunu gözlemleyebiliriz.
+
+![](http://yazicielif.github.io/img/network_post_1/n_5.png)
 
 
 ~~~
