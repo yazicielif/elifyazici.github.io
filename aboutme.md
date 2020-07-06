@@ -5,7 +5,7 @@ title: Hakkımda
 ---
 
 Merhabalar,
-Ben Elif Yazıcı. Sakarya Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisiyim.
+Ben Elif Yazıcı. Yeni mezun bir bilgisayar mühendisiyim.
 Blogumda araştırmalarımı ve edindiğim bilgileri sizinle paylaşıyor olacağım.
 Aşağıdaki hesaplardan hakkımda daha fazla bilgi edinebilirsiniz.
 
