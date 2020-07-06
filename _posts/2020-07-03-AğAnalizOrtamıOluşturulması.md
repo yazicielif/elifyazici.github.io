@@ -169,8 +169,4 @@ sudo systemctl status filebeat
 
 
 
-Tüm araçları localhost üzerinde çalıştırmayı düşünüyorsanız filebeat üzerinde sadece filebeat.yml dosyasında  **#host: "localhost:5601"** aratıp başındaki **#** kaldırarak (yorum satırından çıkararak) konfigürasyonu basitçe halledebilirsiniz.
-
-
-Bunları Elastic'in kendi sitesinde de bulabilirsiniz. Kurulumunuza bağlı olarak çalıştırma şeklinizin değişeceği için diğer yazılara referans olması açısından adım adım paylaştım. Umarım işinize yarar, sağlıcakla.
 
