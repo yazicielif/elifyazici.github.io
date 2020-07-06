@@ -14,7 +14,7 @@ Bu yazımızda Elastic STACK üzerinde ağ analizi ortamı kuracağız.
 
 Bu ortam için gereken araçlar:
 - Elasticsearch
-- Fiebeat
+- Filebeat
 - Kibana
 - Tshark
 
@@ -57,7 +57,7 @@ sudo -i service elasticsearch start
 netstat -nltp 
 ~~~
 
-ile çalışan servislerde elasticsearch'ün çalıştığı 9200 portunu gözlemleyebiliriz.
+ile çalışan servislerde Elasticsearch'ün çalıştığı 9200 portunu gözlemleyebiliriz.
 
 ![](http://yazicielif.github.io/img/network_post_1/n_5.png)
 
@@ -84,7 +84,7 @@ localhost:5601 adresi url'e yazılır ve aşağıdaki kibana arayüzü gözlenir
 sudo apt install tshark
 ~~~
 
-Tshark kök kullanıcı modunda aşağıdaki komutla çalıştırılır.Bu komut ile packet capture işlemi ek ile ElasticSearch ün indeksleyebileceği bir formata uygun olarak tshark.json dosyasına gerçek zamanlı olarak kaydedilir.
+Tshark kök kullanıcı modunda aşağıdaki komutla çalıştırılır.Bu komut ile packet capture işlemi ek ile Elasticsearch'ün indeksleyebileceği bir formata uygun olarak tshark.json dosyasına gerçek zamanlı olarak kaydedilir.
 ~~~
 tshark -i 1 -T ek -V > /home/machine3/Desktop/logs/tshark.json
 ~~~
@@ -168,5 +168,12 @@ sudo systemctl status filebeat
 ![](http://yazicielif.github.io/img/network_post_1/n_11.png)
 
 
+Kibana'ya gelinir. Management kısmından Create index pattern ile indeks paterni oluşturulur. Index Management kısmında patternlere gelen yeni veriler reload indices ile yenilenebilir. 
 
 
+![](http://yazicielif.github.io/img/network_post_1/n_12.png)
+
+Kibana Dashboard kısmına gelerek görselleştirilme yardımıyla paketler incelenebilir.
+
+
+![](http://yazicielif.github.io/img/network_post_1/n_13.png)
