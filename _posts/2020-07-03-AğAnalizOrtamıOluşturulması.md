@@ -143,14 +143,16 @@ processors:
 ~~~
 
 ▪ İnput bölümünde ;
-- • input olarak gelen verinin log tipinde olacağı,
-- • paths kısmında geldiği dizini,
-- • json.key_under_root: true ile varsayılan olarak, kodu çözülen JSON çıktı belgesindeki bir "json" anahtarının altına yerleştirilir. Bu ayarı etkinleştirilerek anahtar çıktı belgesinde en üst seviyeye kopyalanır. Varsayılan, false değeridir.
-- • Document_type : “pcap_file” ile gelen dosyanın pcap dosyası türünde olduğunu belirtildi.
+- input olarak gelen verinin log tipinde olacağı,
+- paths kısmında geldiği dizini,
+- json.key_under_root: true ile varsayılan olarak, kodu çözülen JSON çıktı belgesindeki bir "json" anahtarının altına yerleştirilir. Bu ayarı etkinleştirilerek anahtar çıktı belgesinde en üst seviyeye kopyalanır. Varsayılan, false değeridir.
+- Document_type : “pcap_file” ile gelen dosyanın pcap dosyası türünde olduğunu belirtildi.
 
 
 ▪ Setup.kibana : host : “localhost5601” Kibana ‘nın hostunu konfigüre edildi.
+
 ▪ Output.elasticsearch: host: [“localhost:9200”] ile Elasticsearch ‘ ün output’unu konfigüre edildi.
+
 ▪ processors: - drop_event: when: equals: index._type: "pcap_file" ile indeks tipi “pcap_file” olan dosyaların drop (düşme) işlemi gerçekleştirildi.
 
 
