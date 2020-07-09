@@ -142,7 +142,7 @@ processors:
          index._type: "pcap_file"
 ~~~
 
-▪ İnput bölümünde ;
+▪ Input bölümünde ;
 - input olarak gelen verinin log tipinde olacağı,
 - paths kısmında geldiği dizini,
 - json.key_under_root: true ile varsayılan olarak, kodu çözülen JSON çıktı belgesindeki bir "json" anahtarının altına yerleştirilir. Bu ayarı etkinleştirilerek anahtar çıktı belgesinde en üst seviyeye kopyalanır. Varsayılan, false değeridir.
