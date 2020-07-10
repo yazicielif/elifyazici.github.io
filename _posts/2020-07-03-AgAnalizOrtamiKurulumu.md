@@ -180,6 +180,6 @@ Kibana Dashboard kısmına gelerek görselleştirilme yardımıyla paketler ince
 
 **Kaynaklar:**
 
-[https://www.elastic.co/guide/en/beats/filebeat/7.x/index.html
+https://www.elastic.co/guide/en/beats/filebeat/7.x/index.html
 
 https://www.elastic.co/blog/analyzing-network-packets-with-wireshark-elasticsearch-and-kibana
