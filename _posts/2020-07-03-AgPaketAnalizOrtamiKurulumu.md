@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elastic STACK ile Ağ Analiz Ortamının Kurulumu
+title: Elastic STACK ile Ağ Paket Analizi Ortamının Kurulumu
 bigimg: /img/network_post_1/networkimage.jpg
 
 
@@ -10,7 +10,7 @@ comments: true
 
 
 Merhabalar,
-Bu yazımızda Elastic STACK üzerinde ağ analizi ortamı kuracağız.
+Bu yazımızda Elastic STACK üzerinde ağ paket analizi ortamı kuracağız.
 
 Bu ortam için gereken araçlar:
 - Elasticsearch
