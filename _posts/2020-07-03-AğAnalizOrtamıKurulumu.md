@@ -178,8 +178,8 @@ Kibana Dashboard kısmına gelerek görselleştirilme yardımıyla paketler ince
 
 ![](http://yazicielif.github.io/img/network_post_1/n_13.png)
 
-Kaynaklar:
+**Kaynaklar:**
 
-[1](https://www.elastic.co/guide/en/beats/filebeat/7.x/index.html)
+[https://www.elastic.co/guide/en/beats/filebeat/7.x/index.html
 
-[2](https://www.elastic.co/blog/analyzing-network-packets-with-wireshark-elasticsearch-and-kibana)
+https://www.elastic.co/blog/analyzing-network-packets-with-wireshark-elasticsearch-and-kibana
