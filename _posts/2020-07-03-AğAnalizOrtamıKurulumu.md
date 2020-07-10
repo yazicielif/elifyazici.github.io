@@ -178,6 +178,5 @@ Kibana Dashboard kısmına gelerek görselleştirilme yardımıyla paketler ince
 
 ![](http://yazicielif.github.io/img/network_post_1/n_13.png)
 
-Referans:
- 
+Referans: 
 https://www.elastic.co/blog/analyzing-network-packets-with-wireshark-elasticsearch-and-kibana
